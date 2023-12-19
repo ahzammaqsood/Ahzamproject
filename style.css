@@ -1,7 +1,8 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
+body {
+    font-family: 'Arial', sans-serif;
     margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
 header{
     text-align: center;
@@ -37,12 +38,83 @@ img{
     justify-content: space-between;
     padding: 20px;
 }
-.cv-coloum-left{
+.left-section{
+    margin-left: 10%;
     width: 40%;
-    background-color: blue;
 }
-.cv-coloum-right{
+.right-section{
     width: 60%;
-    background-color: brown;
+}
+.fas{
+    padding-right: 10px;
 }
 
+.contact-1 {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #333;
+}
+
+.contact, .skills, .languages {
+    margin-bottom: 30px;
+}
+
+.progress {
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    width: 80%;
+}
+
+.progress-bar {
+    height: 100%;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.html {
+    width: 90%;
+    background-color: #2ecc71;
+}
+
+.css {
+    width: 90%;
+    background-color: #2ecc71;
+}
+.Bootstrap{
+    width: 80%;
+    background-color: #3498db;
+}
+.Javascript{
+    width: 30%;
+    background-color: #dba134;
+}
+.Digitalmarketing{
+    width: 100%;
+    background-color: #64c438;
+}
+
+
+/* Add more styles for additional skills */
+
+.contact p, .skills p, .languages p {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
